@@ -1,0 +1,6 @@
+# Build and IDE files
+build/
+.vscode/
+.idea/
+.DS_Store
+.clangd/
