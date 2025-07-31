@@ -16,7 +16,7 @@ public:
 
     RedisValue(StringValue& value) : type_(RedisValueType::String), value_(value) {}
 
-    StringValue& value() { return value_; }
+    const StringValue& value() { return value_; }
 
 private:
     RedisValueType type_;
